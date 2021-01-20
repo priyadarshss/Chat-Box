@@ -1,0 +1,50 @@
+.sidebar{
+    display: flex;
+    flex:0.35;
+    flex-direction: column;
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
+    border-right: rgb(201, 198, 198) solid 1px;
+    border-bottom: rgb(201, 198, 198) solid 1px;
+}
+
+.sidebar_chats{
+    flex: 1;
+    background-color: white;
+    border-right: rgb(201, 198, 198) solid 1px;
+}
+
+.addperson{
+    background: #cccbcb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.vertdots{
+    background: #cccbcb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.searchicon{
+    background: #cccbcb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}

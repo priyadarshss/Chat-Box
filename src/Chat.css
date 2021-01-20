@@ -1,0 +1,112 @@
+.chat{
+    display: flex;
+    flex: 0.65;
+    background-color: #ededed;
+    border-left: black;
+    border-width: 5px;
+    flex-direction: column;
+}
+
+.chat_header{
+    padding: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(201, 198, 198) solid 1px;
+}
+
+.chat_header_info{
+    padding: 16px;
+    flex: 1;
+}
+
+.chat_header_info > h2{
+    font-size: 19px;
+}
+
+.chat_body{
+    flex: 1;
+    background-color: rgb(158, 86, 86);
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+    background-image: url("https://wallpaperaccess.com/full/1670773.jpg");
+}
+
+.chat_body_message{
+    position: relative;
+    padding: 3px;
+    font-size: 18px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.chat_sender{
+    margin-left: auto;
+    background-color: rgb(250, 71, 26);
+}
+
+.chat_name{
+    position: absolute;
+    font-weight: 700;
+    top: -13px;
+    font-size: x-small;
+}
+
+.chat_timestamp{    
+    margin-left: 10px;
+    font-size: x-small;
+    color: rgb(95, 82, 82);
+}
+
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-top: 1px grey solid;
+    background-color: rgb(228, 226, 226);
+}
+
+.chat_footer > form{
+    display: flex;
+    flex:1;
+}
+
+.chat_footer > form > input{
+    display: flex;
+    flex: 1;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.chat_footer > form > button{
+    display: none;
+}
+
+.callicon{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-80%, -50%); 
+    height: 25px; 
+    width: 35px; 
+    border-radius: 150px 0 0 150px; 
+    background-color: #cccbcb;
+}
+
+.videocallicon{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-45%, -50%); 
+    height: 25px; 
+    width: 35px; 
+    border-radius: 0 150px 150px 0; 
+    background-color: #cccbcb;
+}
+
