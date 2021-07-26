@@ -4,6 +4,7 @@ import firebase from "firebase"
 const firebaseConfig = {
   apiKey: "AIzaSyBmLyNp_KlwH4SlHTkmz6EvgysEmXAteYo",
   authDomain: "chatbox-3243c.firebaseapp.com",
+  databaseURL: "https://chatbox-3243c-default-rtdb.firebaseio.com",
   projectId: "chatbox-3243c",
   storageBucket: "chatbox-3243c.appspot.com",
   messagingSenderId: "869381154556",
